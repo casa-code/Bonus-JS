@@ -11,4 +11,5 @@ function combineTwoArrays(arr1,arr2){
 }
 
 
-console.log(combineTwoArrays(testArrayOne,testArrayTwo))
+console.log(combineTwoArrays(testArrayOne,testArrayTwo).join(" "))
+console.log(combineTwoArrays(testArrayOne,testArrayTwo).toString().replace(/,/g, " "))
